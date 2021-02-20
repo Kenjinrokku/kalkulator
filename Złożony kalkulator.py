@@ -1,5 +1,7 @@
 print("Witaj, w kalkulatorze nowej generacji SPOX!")
 
+print("Zacznijmy liczenie")
+
 wybor = input(''' Wybierz odpowiednią operację:
 + - dodawanie,
 - - odejmowanie,
