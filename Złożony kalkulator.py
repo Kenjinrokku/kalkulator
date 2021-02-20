@@ -11,8 +11,8 @@ wybor = input(''' Wybierz odpowiednią operację:
 Wybrana operacja: ''')
 
 
-a = int(input("Podaj pierwszą liczbę: "))
-b = int(input("Podaj drugą liczbę: "))
+a = float(input("Podaj pierwszą liczbę: "))
+b = float(input("Podaj drugą liczbę: "))
 
 if(wybor == "+"):
     print("wynik to:", a + b)
