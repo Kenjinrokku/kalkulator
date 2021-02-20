@@ -2,6 +2,9 @@ print("Witaj, w kalkulatorze nowej generacji SPOX!")
 
 print("Zacznijmy liczenie")
 
+a = int(input("Podaj pierwszą liczbę: "))
+b = int(input("Podaj drugą liczbę: "))
+
 wybor = input(''' Wybierz odpowiednią operację:
 + - dodawanie,
 - - odejmowanie,
@@ -9,10 +12,6 @@ wybor = input(''' Wybierz odpowiednią operację:
 / - dzielenie,
 ** - potęgowanie,
 Wybrana operacja: ''')
-
-
-a = int(input("Podaj pierwszą liczbę: "))
-b = int(input("Podaj drugą liczbę: "))
 
 if(wybor == "+"):
     print("wynik to:", a + b)
